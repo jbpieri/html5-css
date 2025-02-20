@@ -1,0 +1,53 @@
+
+mãos rezando
+U+1F64F
+
+mãos indicando para baixo
+U+1F447
+
+Biceps
+U+1F4AA
+
+----------------
+
+cobra
+U+1F40D
+
+Pato
+U+1F986
+
+Gato]
+U+1F408 U+200D U+2B1B
+
+----------------
+
+pingue pong
+U+1F3D3
+
+dardo
+U+1F3AF
+
+futebol
+U+26BD
+
+-------------------
+
+sopa
+U+1F958
+
+hot dog
+U+1F32D
+
+bolo
+U+1F370
+
+--------------
+
+roupas
+U+1F97C
+
+guitarra
+U+1F3B8
+
+TV
+U+1F4FA
