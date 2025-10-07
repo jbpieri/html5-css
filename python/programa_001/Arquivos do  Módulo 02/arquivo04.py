@@ -28,6 +28,8 @@ else:
         precoConcM3 = 240
 
 precoTotal = precoConcM3 * quantM3Concreto
+
+
       
            
 
