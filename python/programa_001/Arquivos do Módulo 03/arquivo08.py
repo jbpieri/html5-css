@@ -1,3 +1,5 @@
+import math
+
 # Funções
 
 # Funções nativas do Python...
@@ -48,3 +50,19 @@ def mediaArit(num1, num2):
     return media
 
 print(mediaArit(10,30))
+
+# Criar uma função que calcule a área e o periímetro de uma circunferência.
+
+def circunfInfo(diametro):
+    areaCirc = (math.pi) * pow(diametro, 2) /4
+    perimCirc = (math.pi) * diametro
+
+    resultadosFinais ={
+        'Diametro': diametro,
+        'Area': areaCirc,
+        'Perimetro': perimCirc
+    }
+    return resultadosFinais
+
+print(circunfInfo(10))
+
