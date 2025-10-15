@@ -42,3 +42,4 @@ print('-------------')
 for elem in lista:
     if type(elem) == float:
         print("Encontrei um float!", elem)
+        
