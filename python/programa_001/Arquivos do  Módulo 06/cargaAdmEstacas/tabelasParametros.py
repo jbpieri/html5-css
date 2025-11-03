@@ -38,7 +38,3 @@ def fatorCorrAoki():
     dfCorrecaoAoki = pd.DataFrame(corrAoki, columns=['Tipo de estaca', 'F1', 'F2'])
       
     return dfCorrecaoAoki
-
-print(paramAokiTab())
-
-print(fatorCorrAoki())
