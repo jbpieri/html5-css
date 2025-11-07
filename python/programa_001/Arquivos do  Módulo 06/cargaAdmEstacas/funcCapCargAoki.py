@@ -1,4 +1,5 @@
 # import pandas as pd
+import math
 from tabelasParametros import paramAokiTab, fatorCorrAoki
 
 
@@ -25,6 +26,42 @@ def searchCorrAoki(tipoEstaca):
     
     return listaFatorCorr
 
+
+def calc_rpAoki(tipoSolo, tipoEstaca, nspt):
+    
+    valorK = searchParamAoki(tipoSolo)[0]
+    valorF1 = searchCorrAoki(tipoEstaca)[0]
+    
+    rp = valorK * nspt / valorF1    # rp em kPa
+    
+    return rp
+
+def calc_rlAoki(tipoSolo, tipoEstaca, nspt):
+    
+    valorK = searchParamAoki(tipoSolo)[0]
+    valorAlfa = searchParamAoki(tipoSolo)[1]
+    valorF2 = searchCorrAoki(tipoEstaca)[1]
+    
+    rl = valorK * nspt * valorAlfa / valorF2
+    
+    return rl
+
+def propGeomEst(diametro):
+    
+    perimetroEst = diametro * math.pi
+    areaEst = pow(diametro, 2) * math.pi / 4
+    
+    resultProGeom = [diametro, perimetroEst, areaEst]
+    
+    return resultProGeom
+
+
+
+
 # testes
+
 # print(searchCorrAoki('Raiz'))
 # print(searchParamAoki(1))
+# print(calc_rpAoki(12,'HCM',15))
+# print(calc_rlAoki(12,'HCM',15))
+# print(propGeomEst(0.50))
