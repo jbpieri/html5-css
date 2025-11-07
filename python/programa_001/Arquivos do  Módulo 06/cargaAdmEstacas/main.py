@@ -3,7 +3,7 @@
 
 
 tipoEstaca = 'HCM'      # HCM, Escavada, Raiz
-diametroEst = 0.50      # m
+diametroEst = 0.30      # m
 cargaAdmEsperada = 170  # kN
-ListaNspt =     [0, 1, 5,  5,  5,  8,  8, 10, 15, 15, 18,  20, 20]
-listaTipoSolo = [1, 1, 1, 12, 12, 12, 13, 13,  3,  3,  3,  31, 31] # usuário pode verificar no arquivo Convenções
+ListaNspt =     [0,   1,  1,  3,  6, 10, 11, 16,  30,  50,  50,  50, 50, 50, 50]
+listaTipoSolo = [23, 23, 23, 23, 32, 32, 32, 32,  32,  12,  12,  12, 12, 12, 12] # usuário pode verificar no arquivo Convenções
