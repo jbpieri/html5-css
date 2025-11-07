@@ -65,13 +65,3 @@ def valoresK(listaTipoSolo):
     return listaComValoresK
 
 
-# testes
-
-# print(searchCorrAoki('Raiz'))
-# print(searchParamAoki(1))
-# print(calc_rpAoki(12,'HCM',15))
-# print(calc_rlAoki(12,'HCM',15))
-# print(propGeomEst(0.50))
-print(valoresK([23, 23, 23, 23, 32, 32, 32, 32,  32,  12,  12,  12, 12, 12, 12]))
-
-
