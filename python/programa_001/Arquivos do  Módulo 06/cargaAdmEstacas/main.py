@@ -1,4 +1,4 @@
-from funcCapCargAoki import valoresK, propGeomEst
+from funcCapCargAoki import valoresK #, propGeomEst
 
 
 
@@ -11,5 +11,6 @@ listaTipoSolo = [23, 23, 23, 23, 32, 32, 32, 32,  32,  12,  12,  12, 12, 12, 12]
 # Execuções
 
 print(valoresK(listaTipoSolo))
-print(propGeomEst(diametroEst))
+# print(propGeomEst(diametroEst))
 #print(valoresrp(listaTipoSolo, tipoEstaca))
+

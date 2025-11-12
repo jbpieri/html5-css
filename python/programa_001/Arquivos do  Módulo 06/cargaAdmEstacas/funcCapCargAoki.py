@@ -1,4 +1,4 @@
-# import pandas as pd
+import pandas as pd
 import math
 from tabelasParametros import paramAokiTab, fatorCorrAoki
 
@@ -64,21 +64,14 @@ def valoresK(listaTipoSolo):
     
     return listaComValoresK
 
-
-
-
-#def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
+'''
+def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
     
- #   listaNspt.append(listaNspt[-1])
-  #  listaComValoresrp = []
-    
-   # for i in range(len(ListaTipoSolo)):
-    
-    #    listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, listaNspt[i + 1]))
+    listaNspt.append(listaNspt[-1])
+    listaComValoresrp = []
+    for i in range(len(ListaTipoSolo)):
+        listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, listaNspt[i + 1]))
         
-    #listaNspt.pop()    
-       
-    
-    #return listaComValoresrp
-
-
+    listaNspt.pop()    
+    return listaComValoresrp
+'''
