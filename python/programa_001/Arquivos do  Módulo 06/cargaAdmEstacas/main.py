@@ -1,4 +1,4 @@
-from funcCapCargAoki import valoresK #, propGeomEst
+from funcCapCargAoki import valoresK, propGeomEst
 
 
 
