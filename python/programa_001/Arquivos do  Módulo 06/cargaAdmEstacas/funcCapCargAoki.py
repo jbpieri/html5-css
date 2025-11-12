@@ -63,19 +63,22 @@ def valoresK(listaTipoSolo):
         listaComValoresK.append(searchParamAoki(listaTipoSolo[ts])[0])
     
     return listaComValoresK
-...
-def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
+
+
+
+
+#def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
     
-    listaNspt.append(listaNspt[-1])
-    listaComValoresrp = []
+ #   listaNspt.append(listaNspt[-1])
+  #  listaComValoresrp = []
     
-    for i in range(len(ListaTipoSolo)):
+   # for i in range(len(ListaTipoSolo)):
     
-        listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, listaNspt[i + 1]))
+    #    listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, listaNspt[i + 1]))
         
-    listaNspt.pop()    
+    #listaNspt.pop()    
        
     
-    return listaComValoresrp
-...
+    #return listaComValoresrp
+
 
