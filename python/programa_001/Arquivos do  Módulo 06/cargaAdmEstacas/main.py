@@ -12,5 +12,5 @@ listaTipoSolo = [23, 23, 23, 23, 32, 32, 32, 32,  32,  12,  12,  12, 12, 12, 12]
 
 print(valoresK(listaTipoSolo))
 print(propGeomEst(diametroEst))
-#print(valoresrp(listaTipoSolo, tipoEstaca))
+
 

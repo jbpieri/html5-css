@@ -64,7 +64,7 @@ def valoresK(listaTipoSolo):
     
     return listaComValoresK
 
-'''
+
 def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
     
     listaNspt.append(listaNspt[-1])
@@ -74,4 +74,3 @@ def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
         
     listaNspt.pop()    
     return listaComValoresrp
-'''
