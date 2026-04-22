@@ -55,22 +55,22 @@ def propGeomEst(diametro):
     
     return resultProGeom
 
-def valoresK(listaTipoSolo):
+def valoresK(ListaTipoSolo):
     
     listaComValoresK = []
     
-    for ts in range(len(listaTipoSolo)):
-        listaComValoresK.append(searchParamAoki(listaTipoSolo[ts])[0])
+    for ts in range(len(ListaTipoSolo)):
+        listaComValoresK.append(searchParamAoki(ListaTipoSolo[ts])[0])
     
     return listaComValoresK
 
 
-def valoresrp(ListaTipoSolo, tipoEstaca, listaNspt):
+def valoresrp(ListaTipoSolo, tipoEstaca, ListaNspt):
     
-    listaNspt.append(listaNspt[-1])
+    ListaNspt.append(ListaNspt[-1])
     listaComValoresrp = []
     for i in range(len(ListaTipoSolo)):
-        listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, listaNspt[i + 1]))
+        listaComValoresrp.append(calc_rpAoki(ListaTipoSolo[i], tipoEstaca, ListaNspt[i + 1]))
         
-    listaNspt.pop()    
+    ListaNspt.pop()    
     return listaComValoresrp
