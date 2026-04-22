@@ -1,7 +1,13 @@
 # A MEMÓRIA DO COMPUTADOR
 
 """Esse também é um comentário"""
-
+"""
+    Depois de selecionar o texto,
+    Se apertar no studio code a tecla control+; 
+    O programa já coloca com o formato de comentário
+    Para a linguagem que vc esta usando.
+    
+"""
 # Ricardo Corsini
 
 # Armazena dados
@@ -10,7 +16,7 @@
 
 # Número 8 =  000010000
 # Número 1 =  000000001
-# Número 35 = 001000001
+# Número 35 = 001000011
 
 # Em código binário, o caractere # é = 00100011 (número 35)
 
@@ -20,8 +26,7 @@
 
 print(type(35))     # int (inteiro)
 print (type('#'))   # str (caractere string)
-
-print (type(35+50))  # int (inteiro)
+print (type(35 + 50))  # int (inteiro)
 print(type(3.14))
 print(type(True))
 print(type('Eu sou uma cadeia de caracteres, tipo string'))
@@ -38,5 +43,5 @@ print(1==1)
 # Ponto flutuante - float 
 # ex: 3.1415
 
-# Boleanos
+# Booleanos
 # ex: True, False

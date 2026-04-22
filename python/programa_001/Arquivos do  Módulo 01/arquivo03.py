@@ -31,7 +31,7 @@ print (divteste)
 print (type(divteste))
 
 #   PALAVRAS RESERVADAS NO PYTHON
-#   False, true, if, not, and, None, Global, try
+#   False, True, if, not, and, None, Global, try
 #   False = 4  : NÃO UTILIZAR
 
 # BOAS PRÁTICAS PARA VARIÁVEIS
